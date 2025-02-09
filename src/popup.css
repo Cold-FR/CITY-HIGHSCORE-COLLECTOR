@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('./fonts/ubuntu.ttf') format('truetype'),
+    local('Ubuntu Condensed');
+    font-display: swap
+}
+
+:root {
+    --black: black;
+    --white: white;
+    --white-forced: white;
+    --grey: #ececec;
+    --grey-light: rgb(245, 245, 245);
+    --grey-dark: #d9d9d9;
+    --yellow: #FDC628;
+    --blue: #e3f4ff;
+}
+
+.black {
+    --black: #d4d4d4;
+    --white: #383838;
+    --grey: #1a1a1a;
+    --grey-light: #1a1a1a;
+    --grey-dark: #2f2f33;
+    --yellow: #818181;
+    --blue: #1a1a1a;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 300px;
+    background: var(--white);
+    color: var(--black);
+}
+
+input, button {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif !important;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 5px 10px 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"], button {
+    background: #38a4b8;
+    border: none;
+    border-bottom: 4px solid rgba(0, 0, 0, .2);
+    border-radius: 13px;
+    color: var(--white-forced);
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: fit-content;
+    width: 40%;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+button:hover, input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"].clicked {
+    transform: scale(.98);
+    background: #2e8e9e;
+    cursor: pointer;
+}
+
+input[type="submit"].clicked {
+    cursor:not-allowed;
+}
+
+input:active, input:focus {
+    outline: none;
+}
+
+textarea {
+    min-height: 75px;
+    font-family: 'Ubuntu', sans-serif !important;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background: var(--grey);
+    color: var(--black);
+    resize: vertical;
+}
+
+textarea:focus {
+    outline: none;
+    border:1px solid #38a4b8 !important;
+}
+
+textarea::placeholder {
+    color: var(--black);
+    opacity: .7;
+}
+
+.black textarea {
+    border: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 6px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: var(--grey-light);
+    border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #38a4b8;
+    border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #2e8e9e;
+}
+
+p {
+    text-align: center;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin-top: 5px;
+}
+
+.content {
+    padding: 15px;
+}
+
+#colorMode {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    background-image: url("./imgs/icon_white.png");
+    width: 36px;
+    height: 36px;
+}
+
+#colorMode:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.black #colorMode {
+    background-image: url("./imgs/icon_dark.png");
+}
+
+.logo {
+    width: 146px;
+    height: 58px;
+    background-image: url("./imgs/logo_city_white.png");
+    margin: 0 auto 10px;
+}
+
+.black .logo {
+    background: url("./imgs/logo_city_black.png") no-repeat;
+}
+
+.title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 16px;
+}
+
+#players {
+    margin: 10px auto;
+}
+
+#players-list {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    border: 1px solid #eaeaea;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 13px;
+    justify-content: flex-start;
+}
+
+.empty {
+    width: 100%;
+}

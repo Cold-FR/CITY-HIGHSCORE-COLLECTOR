@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "HabboCity - Highscore Collector",
+  "version": "1",
+  "description": "Permet de récupérer la liste des joueurs affichés sur un classement.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://nitro.habbocity.me/*"],
+      "js": ["./scripts/content.js"],
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "imgs/icon.ico"
+  }
+}
