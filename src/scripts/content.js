@@ -69,7 +69,7 @@ function removeListeners() {
  * @returns {void}
  */
 function rankingHandleClick(e) {
-    const entries = e.target.querySelectorAll('.highscore-entry');
+    const entries = e.target.closest('.nitro-widget-high-score.nitro-context-menu').querySelectorAll('.highscore-entry');
     entries.forEach((entry) => {
         pseudos.push(`${entry.querySelector('.d-inline.text-white.text-start.col-8').innerText}`);
     });
