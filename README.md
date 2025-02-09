@@ -11,6 +11,9 @@ You can install the extension by following these steps (you need to have a brows
 2. Click on the "Add to Chrome" button.
 3. The extension will be installed, and you will see the icon in the top right corner of your browser.
 
+## Screenshots
+![Popup](/screenshots_store.png)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
