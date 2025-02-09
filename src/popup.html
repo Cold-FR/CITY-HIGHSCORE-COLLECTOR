@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>HabboCity - Highscore Collector</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="popup.css" type="text/css">
+</head>
+<body>
+<div id="loader" style="display: none;">
+    <div class="loaderSpinner"></div>
+</div>
+<div class="content">
+    <div id="colorMode"></div>
+    <div class="logo"></div>
+    <h3 class="title">Récupérer la liste des joueurs d'un classement</h3>
+    <p class="description">Appuyez sur le bouton ci-dessous puis cliquez sur le classement désiré.</p>
+    <form id="select-ranking">
+        <input id="select-ranking-btn" type="submit" value="Sélectionner un classement">
+    </form>
+    <div class="players">
+        <h3 class="title">Joueurs</h3>
+        <p class="description">Liste des joueurs affichés sur le classement sélectionné.</p>
+        <div id="players-list">
+        </div>
+    </div>
+</div>
+
+<script src="scripts/popup.js" type="text/javascript"></script>
+</body>
+</html>
