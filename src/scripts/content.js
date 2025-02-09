@@ -1,8 +1,8 @@
 /**
  * @file This file contains the content script for the extension.
  * @author Cold-FR
- * @last-modified 2025-02-08
- * @version 1
+ * @last-modified 2025-02-09
+ * @version 1.1
  * @github https://github.com/Cold-FR/CITY-QUEST-COLLECTOR
  */
 
