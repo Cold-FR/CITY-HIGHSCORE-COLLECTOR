@@ -2,7 +2,7 @@
 HabboCity Highscore Collector Chrome Extension is a Chrome extension that allows you to collect all the displayed players from 
 a wired highscore and copy them to your clipboard.
 
-[![Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chromewebstore.google.com/detail/habbocity-highscore-colle/eidjkdngfjkhmmehgalocigblghcepbl)
+[![Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/206x58-chrome-web-bcb82d15b2486.png)](https://chromewebstore.google.com/detail/habbocity-highscore-colle/eidjkdngfjkhmmehgalocigblghcepbl)
 
 ## Installation
 You can install the extension by following these steps (you need to have a browser with Chrome Web Store support):
