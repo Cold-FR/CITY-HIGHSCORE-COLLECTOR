@@ -9,7 +9,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://nitro.habbocity.me/*"],
+      "matches": ["https://cdn.habbocity.fr/*"],
       "js": ["./scripts/content.js"],
       "all_frames": true
     }

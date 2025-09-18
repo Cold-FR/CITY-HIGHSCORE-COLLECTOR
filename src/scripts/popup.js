@@ -117,7 +117,7 @@ function displayPlayersList() {
 function sendListenMessage() {
     chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
         const activeTab = tabs[0];
-        if (!activeTab.url.match('habbocity.me')) return;
+        if (!activeTab.url.match('habbocity.fr')) return;
 
         chrome.tabs.sendMessage(activeTab.id, 'listenClick');
     });
