@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/chrome-manifest",
   "manifest_version": 3,
   "name": "HabboCity - Highscore Collector",
   "version": "1.1.2",
@@ -10,23 +11,23 @@
   "content_scripts": [
     {
       "matches": ["https://cdn.habbocity.fr/*"],
-      "js": ["./scripts/content.js"],
+      "js": ["src/scripts/content.js"],
       "all_frames": true
     }
   ],
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "src/popup.html",
     "default_icon": {
-      "16": "imgs/icon-16.png",
-      "32": "imgs/icon-32.png",
-      "48": "imgs/icon-48.png",
-      "128": "imgs/icon-128.png"
+      "16": "src/imgs/icon-16.png",
+      "32": "src/imgs/icon-32.png",
+      "48": "src/imgs/icon-48.png",
+      "128": "src/imgs/icon-128.png"
     }
   },
   "icons": {
-    "16": "imgs/icon-16.png",
-    "32": "imgs/icon-32.png",
-    "48": "imgs/icon-48.png",
-    "128": "imgs/icon-128.png"
+    "16": "src/imgs/icon-16.png",
+    "32": "src/imgs/icon-32.png",
+    "48": "src/imgs/icon-48.png",
+    "128": "src/imgs/icon-128.png"
   }
 }
