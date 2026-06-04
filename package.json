@@ -17,7 +17,7 @@
   "keywords": [],
   "author": "Cold-FR",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Cold-FR/CITY-HIGHSCORE-COLLECTOR/issues"
   },
