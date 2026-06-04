@@ -1,0 +1,27 @@
+{
+  "name": "city-highscore-collector",
+  "version": "1.1.2",
+  "description": "HabboCity Highscore Collector Chrome Extension is a Chrome extension that allows you to collect all the displayed players from  a wired highscore and copy them to your clipboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cold-FR/CITY-HIGHSCORE-COLLECTOR.git"
+  },
+  "keywords": [],
+  "author": "Cold-FR",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Cold-FR/CITY-HIGHSCORE-COLLECTOR/issues"
+  },
+  "homepage": "https://github.com/Cold-FR/CITY-HIGHSCORE-COLLECTOR#readme",
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.4.0",
+    "@types/chrome": "^0.1.42",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16"
+  }
+}
