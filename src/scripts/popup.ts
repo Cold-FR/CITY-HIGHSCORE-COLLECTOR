@@ -2,7 +2,7 @@
  * @file This file contains the popup script.
  * @author Cold-FR
  * @last-modified 2025-02-08
- * @version 1.1.2
+ * @version 1.2.0
  * @github https://github.com/Cold-FR/CITY-QUEST-COLLECTOR
  */
 
