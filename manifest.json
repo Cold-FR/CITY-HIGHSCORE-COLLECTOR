@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/chrome-manifest",
   "manifest_version": 3,
   "name": "HabboCity - Highscore Collector",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Permet de récupérer la liste des joueurs affichés sur un classement.",
   "permissions": [
     "activeTab",
